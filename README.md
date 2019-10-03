@@ -1,4 +1,1 @@
-RubySchool, Lesson 22
-====================
-
-Repository for Lesson 22
+In this repository there is Barber shop site, which made by Sinatra gem

@@ -16,3 +16,9 @@ User: qwert, Phone: 32456432, Date and time: 12.19.2019, Master: Jessie Pinkman,
 
 User: supershik, Phone: 31242345325, Date and time: приду завтра, в натуре, Master: Gus Fring, Color: #46d6db
 
+User: qwert, Phone: 32456432, Date and time: 12.19.2019, Master: Walter White, Color: #5484ed
+
+User: supershik, Phone: 31242345325, Date and time: приду завтра, в натуре, Master: Walter White, Color: #ffb878
+
+User: vasek, Phone: 32456432, Date and time: 12.19.2019, Master: Выбор мастера, Color: #7bd148
+

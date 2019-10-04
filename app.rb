@@ -30,7 +30,7 @@ post '/visit' do
 	@barber = params[:barber]
 	@color = params[:color]
 
-	@message = "<h2>Спасибо, уважаемый(ая) #{@username}, мы будем ждать Вас #{@datetime}. Ваш парикмахер: #{@barber}. Мы окрасим вас в цвет #{@color}</h2>"
+
 	
 	# хеш
 	hh = { 	:username => 'Введите имя',
@@ -43,6 +43,7 @@ post '/visit' do
 		return erb :visit
 	end
 	
+		@message = "<h2>Спасибо, уважаемый(ая) #{@username}, мы будем ждать Вас #{@datetime}.       Ваш парикмахер: #{@barber}. Мы окрасим вас в цвет #{@color}</h2>"
 	f = File.open './public/users.txt', 'a'
 	f.write "User: #{@username}, Phone: #{@phone}, Date and time: #{@datetime}, Master: #{@barber}, Color: #{@color}\n\n"
 	f.close

@@ -1,8 +1,11 @@
-﻿
+
 
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/reloader'
+require 'sqlite3'
+
+
 
 get '/' do
 	erb "Hello! <a href=\"https://github.com/bootstrap-ruby/sinatra-bootstrap\">Original</a> pattern has been modified for <a href=\"http://rubyschool.us/\">Ruby School</a>"			
@@ -27,13 +30,24 @@ post '/visit' do
 	@barber = params[:barber]
 	@color = params[:color]
 
-	
 	@message = "<h2>Спасибо, уважаемый(ая) #{@username}, мы будем ждать Вас #{@datetime}. Ваш парикмахер: #{@barber}. Мы окрасим вас в цвет #{@color}</h2>"
+	
+	# хеш
+	hh = { 	:username => 'Введите имя',
+			:phone => 'Введите телефон',
+			:datetime => 'Введите дату и время' }
 
+	@error = hh.select {|key,_| params[key] == ""}.values.join(", ")
+
+	if @error != ''
+		return erb :visit
+	end
+	
 	f = File.open './public/users.txt', 'a'
 	f.write "User: #{@username}, Phone: #{@phone}, Date and time: #{@datetime}, Master: #{@barber}, Color: #{@color}\n\n"
 	f.close
-
+	
+	
 	erb :visit
 
 end

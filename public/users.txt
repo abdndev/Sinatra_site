@@ -22,3 +22,13 @@ User: supershik, Phone: 31242345325, Date and time: приду завтра, в 
 
 User: vasek, Phone: 32456432, Date and time: 12.19.2019, Master: Выбор мастера, Color: #7bd148
 
+User: Валенок, Phone: 435645645645, Date and time: после дождичка в четверг, Master: Jessie Pinkman, Color: #ffb878
+
+User: qwert, Phone: 31242345325, Date and time: приду завтра, в натуре, Master: Выбор мастера, Color: #7bd148
+
+User: qwert, Phone: 32456432, Date and time: 12.19.2019, Master: Выбор мастера, Color: #7bd148
+
+User: qwert, Phone: 32456432, Date and time: 12.19.2019, Master: Выбор мастера, Color: #7bd148
+
+User: vasek, Phone: 31242345325, Date and time: 12.19.2019, Master: Gus Fring, Color: #7bd148
+

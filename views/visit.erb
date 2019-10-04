@@ -41,10 +41,9 @@
 
 
 <select name="barber" class="custom-select ccc">
-  <option selected>Выбор мастера</option>
-  <option value="Walter White">Walter White</option>
-  <option value="Jessie Pinkman">Jessie Pinkman</option>
-  <option value="Gus Fring">Gus Fring</option>
+  <option <%= @barber == 'Walter White'? 'selected':'' %>>Walter White</option>
+  <option  <%= @barber == 'Jessie Pinkman'? 'selected':'' %>>Jessie Pinkman</option>
+  <option <%= @barber == 'Gus Fring'? 'selected':'' %>>Gus Fring</option>
 </select>
 </div>
 

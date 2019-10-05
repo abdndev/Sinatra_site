@@ -40,3 +40,7 @@ User: Василий Теркин, Phone: 89994325698, Date and time: 05 окт�
 
 User: Василий Теркин, Phone: dfghfdgh, Date and time: 6 декабря сего года, Master: Walter White, Color: #7bd148
 
+User: Малина Квасневская, Phone: 94567498679487, Date and time: сегодня после обеда, Master: Jessie Pinkman, Color: #dc2127
+
+User: Малина Квасневская, Phone: 94567498679487, Date and time: сегодня после обеда, Master: Jessie Pinkman, Color: #7bd148
+

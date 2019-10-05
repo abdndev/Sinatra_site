@@ -32,3 +32,11 @@ User: qwert, Phone: 32456432, Date and time: 12.19.2019, Master: Выбор ма
 
 User: vasek, Phone: 31242345325, Date and time: 12.19.2019, Master: Gus Fring, Color: #7bd148
 
+User: Вася Лучков, Phone: 0987986989768, Date and time: 12 октября 2019 года, Master: Jessie Pinkman, Color: #7bd148
+
+User: Вася Лучков, Phone: 0987986989768, Date and time: 12 октября 2019 года, Master: Jessie Pinkman, Color: #7bd148
+
+User: Василий Теркин, Phone: 89994325698, Date and time: 05 октября 2019 года, Master: Walter White, Color: #7bd148
+
+User: Василий Теркин, Phone: dfghfdgh, Date and time: 6 декабря сего года, Master: Walter White, Color: #7bd148
+

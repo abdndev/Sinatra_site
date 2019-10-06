@@ -48,3 +48,9 @@ User: Kiska, Phone: 74364665938, Date and time: 14.10.2019, Master: Gus Fring, C
 
 User: Саша, Phone: 342654365656, Date and time: 23.10.2019, Master: Walter White, Color: #7bd148
 
+User: Светлана, Phone: 124123546346, Date and time: 23.10.2019, Master: Gus Fring, Color: #7ae7bf
+
+User: Александр, Phone: 982347598723, Date and time: 12.10.2019, Master: Jessie Pinkman, Color: #e1e1e1
+
+User: Светлана, Phone: 124123546346, Date and time: позвоню когда буду идти, Master: Gus Fring, Color: #51b749
+

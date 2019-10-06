@@ -40,3 +40,11 @@ User: Василий Теркин, Phone: 89994325698, Date and time: 05 окт�
 
 User: Василий Теркин, Phone: dfghfdgh, Date and time: 6 декабря сего года, Master: Walter White, Color: #7bd148
 
+User: Zuko, Phone: 74938364665, Date and time: 12.10.2019, Master: Jessie Pinkman, Color: #ff887c
+
+User: Zuko, Phone: 74938364665, Date and time: 12.10.2019, Master: Jessie Pinkman, Color: #7bd148
+
+User: Kiska, Phone: 74364665938, Date and time: 14.10.2019, Master: Gus Fring, Color: #46d6db
+
+User: Саша, Phone: 342654365656, Date and time: 23.10.2019, Master: Walter White, Color: #7bd148
+

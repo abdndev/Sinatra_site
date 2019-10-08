@@ -1,19 +1,20 @@
 
-<table class="table">
+<%= @results %>
 
-  <tr>
-  	<td>aa</td>
-  	<td>bb</td>
-  </tr>
 
-   <tr>
-  	<td>cc</td>
-  	<td>dd</td>
-  </tr>
+	<% @results.each do |row| %>
+		<table class="table">
+	
+				<tr>
+					<td><%= row['id'] %></td>
+					<td><%= row['username'] %></td>
+					<td><%= row['phone'] %></td>
+					<td><%= row['datastamp'] %></td>
+					<td><%= row['barber'] %></td>
+					<td><%= row['color'] %></td>
+				</tr>
+		<% end %>
 
-   <tr>
-  	<td>ee</td>
-  	<td>ff</td>
-  </tr>
+		</table>
+		
 
-</table>

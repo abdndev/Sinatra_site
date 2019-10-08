@@ -91,4 +91,6 @@ post '/contacts' do
 
 end
 
-
+get '/showusers' do
+  erb :showusers
+end

@@ -72,3 +72,11 @@ User: Васятка, Phone: 92435865865238, Date and time: 23.12.2019, Master: 
 
 User: Васятка, Phone: 92435865865238, Date and time: 23.12.2019, Master: Gus Fring, Color: #7bd148
 
+User: Петрович, Phone: 19847636873845, Date and time: 14.11.19, Master: Gus Fring, Color: #5484ed
+
+User: Петрович, Phone: 19847636873845, Date and time: 14.11.19, Master: Gus Fring, Color: #5484ed
+
+User: Петросян, Phone: 19847636873845, Date and time: 14.11.19, Master: Gus Fring, Color: #7bd148
+
+User: Петросов, Phone: 2345342, Date and time: 14.11.19, Master: Jessie Pinkman, Color: #a4bdfc
+

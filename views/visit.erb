@@ -39,12 +39,12 @@
 
 <div class="form-group">
 <label>Выберите мастера у которого желаете постричься:</label></br>
+<select name="barber" class="form-control">
 
+  <% @barbers.each do |item| %>
+    <option <%= @barber == item['name'] ? 'selected' : '' %>><%= item['name'] %></option>
+    <% end %>
 
-<select name="barber" class="custom-select ccc">
-  <option <%= @barber == 'Walter White'? 'selected':'' %>>Walter White</option>
-  <option  <%= @barber == 'Jessie Pinkman'? 'selected':'' %>>Jessie Pinkman</option>
-  <option <%= @barber == 'Gus Fring'? 'selected':'' %>>Gus Fring</option>
 </select>
 </div>
 

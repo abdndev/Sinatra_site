@@ -82,3 +82,11 @@ User: Петросов, Phone: 2345342, Date and time: 14.11.19, Master: Jessie 
 
 User: Команчеро, Phone: 2456564767, Date and time: 23.12.2019, Master: Jessie Pinkman, Color: #5484ed
 
+User: samara, Phone: 74938364665, Date and time: 14.11.19, Master: Mike Ermantraut, Color: #46d6db
+
+User: samara, Phone: 74938364665, Date and time: 14.11.19, Master: Mike Ermantraut, Color: #46d6db
+
+User: Dedushka, Phone: 2345342, Date and time: 23.10.2019, Master: Gus Fring, Color: #5484ed
+
+User: Мамулина, Phone: 57456858856, Date and time: 21.12.19, Master: Walter White, Color: #fbd75b
+

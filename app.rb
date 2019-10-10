@@ -21,6 +21,12 @@ def get_db
 	return db
 end
 
+before do
+	db = get_db
+	db.results_as_hash = true
+	@barbers = db.execute 'select * from Barbers'
+end
+
 configure do
 	db = SQLite3::Database.new'barbershop.db'
 	db.execute 'CREATE TABLE IF NOT EXISTS 
@@ -82,6 +88,7 @@ post '/visit' do
 	db.execute 'insert into Users (username, phone, datastamp, barber, color
 	) values (?, ?, ?, ?, ?)', [@username, @phone, @datetime, @barber, @color]
 
+	
 	@message = "<h2>Спасибо, уважаемый(ая) #{@username}, мы будем ждать Вас #{@datetime}.       Ваш парикмахер: #{@barber}. Мы окрасим вас в цвет #{@color}</h2>"
 	f = File.open './public/users.txt', 'a'
 	f.write "User: #{@username}, Phone: #{@phone}, Date and time: #{@datetime}, Master: #{@barber}, Color: #{@color}\n\n"

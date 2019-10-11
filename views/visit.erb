@@ -12,6 +12,7 @@
    // тут можно написать любой javascript код, который исполнится
    // после загрузки страницы
     $('#color').simplecolorpicker();
+    $('#datetimepicker').datetimepicker();
 
 });
 </script>
@@ -33,17 +34,17 @@
 
   <div class="form-group">
     <label>Когда вас ждать?</label>
-    <input name="datetime" type="text" class="form-control" placeholder="Введите дату и время" value="<%= @datetime %>">
+    <input id="datetimepicker" name="datetime" type="text" class="form-control" placeholder="Введите дату и время" value="<%= @datetime %>">
   </div>
 
 <div class="form-group">
 <label>Выберите мастера у которого желаете постричься:</label></br>
+<select name="barber" class="form-control">
 
+  <% @barbers.each do |item| %>
+    <option <%= @barber == item['name'] ? 'selected' : '' %>><%= item['name'] %></option>
+    <% end %>
 
-<select name="barber" class="custom-select ccc">
-  <option <%= @barber == 'Walter White'? 'selected':'' %>>Walter White</option>
-  <option  <%= @barber == 'Jessie Pinkman'? 'selected':'' %>>Jessie Pinkman</option>
-  <option <%= @barber == 'Gus Fring'? 'selected':'' %>>Gus Fring</option>
 </select>
 </div>
 

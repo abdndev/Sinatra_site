@@ -100,3 +100,27 @@ User: Мишутка, Phone: 1235425454525, Date and time: 12 октября 201
 
 User: Лука Мудищев, Phone: 89994325698, Date and time: 13 октября этого года, Master: Gus Fring, Color: #46d6db
 
+User: Лука Мудищев, Phone: 89994325698, Date and time: 13 октября этого года, Master: Gus Fring, Color: #46d6db
+
+User: Вася, Phone: 324534523453, Date and time: 12 октября 2019 года, Master: Walter White, Color: #dc2127
+
+User: Kondor, Phone: 23485832745, Date and time: приду завтра, Master: Gus Fring, Color: #ff887c
+
+User: Марфуша, Phone: 5436436, Date and time: 14.10.2019 в полдень, Master: Mike Ermantraut, Color: #7bd148
+
+User: Вася Лучков, Phone: 324534523453, Date and time: 5 октября 2020 года, Master: Mike Ermantraut, Color: #fbd75b
+
+User: Василий Теркин, Phone: 0987986989768, Date and time: 05 октября 2019 года, Master: Gus Fring, Color: #ff887c
+
+User: Василий Теркин, Phone: 0987986989768, Date and time: 05 октября 2019 года, Master: Gus Fring, Color: #7bd148
+
+User: Василий Теркин, Phone: 0987986989768, Date and time: 05 октября 2019 года, Master: Gus Fring, Color: #7bd148
+
+User: Василий Теркин, Phone: 0987986989768, Date and time: 05 октября 2019 года, Master: Gus Fring, Color: #7bd148
+
+User: Вася, Phone: 89994325698, Date and time: 6 декабря сего года, Master: Walter White, Color: #ff887c
+
+User: Лера, Phone: 89994325698, Date and time: 13 октября этого года, Master: Mike Ermantraut, Color: #46d6db
+
+User: Пупкин, Phone: 24266265465365, Date and time: 13 октября этого года, Master: Walter White, Color: #7bd148
+

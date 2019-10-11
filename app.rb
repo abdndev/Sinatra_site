@@ -84,18 +84,25 @@ post '/visit' do
 		return erb :visit
 	end
 	
+	# вывод данных записавшихся клиентов в базу данных
 	db = get_db
 	db.execute 'insert into Users (username, phone, datastamp, barber, color
 	) values (?, ?, ?, ?, ?)', [@username, @phone, @datetime, @barber, @color]
 
 	
-	@message = "<h2>Спасибо, уважаемый(ая) #{@username}, мы будем ждать Вас #{@datetime}.       Ваш парикмахер: #{@barber}. Мы окрасим вас в цвет #{@color}</h2>"
+	# возможен вывод сообщения об успешной записи на страницу
+	#@message = "<h2>Спасибо, уважаемый(ая) #{@username}, мы будем ждать Вас #{@datetime}. Ваш парикмахер: #{@barber}. Мы окрасим вас в цвет #{@color}</h2>"
+
+
+	# вывод данных записавшихся клиентов в текстовый файл
 	f = File.open './public/users.txt', 'a'
 	f.write "User: #{@username}, Phone: #{@phone}, Date and time: #{@datetime}, Master: #{@barber}, Color: #{@color}\n\n"
 	f.close
 	
+	# или вывод сообщения на пустой странице
+	erb "<h2>Спасибо? вы записались!</h2>"
 	
-	erb :visit
+	#erb :visit
 
 end
 
